@@ -1,39 +1,37 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
-import Tailwind from "./icons/Tailwind.astro"
+import Django from "./icons/Django.astro"
+import Bootstrap from "./icons/Bootstrap.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
+import Sql from "./icons/Sql.astro"
 
 const TAGS = {
-  NEXT: {
-    name: "Next.js",
+  DJANGO: {
+    name: "Django",
     class: "bg-black text-white",
-    icon: NextJS,
+    icon: Django,
   },
-  TAILWIND: {
-    name: "Tailwind CSS",
+  BOOTSTRAP: {
+    name: "Bootstrap CSS",
     class: "bg-[#003159] text-white",
-    icon: Tailwind,
+    icon: Bootstrap,
+  },
+  SQL: {
+    name: "Sqlite3",
+    class: "bg-[#003159] text-white",
+    icon: Sql,
   },
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "CasadoStore - A store made from scratch",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
-  },
-  {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-    description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "After finishing the specialization in Django I had the need to demonstrate my knowledge and go beyond what was taught in the courses so I made an online store with Django, Bootstrap and Sqlite3. It has a relational database, Social Login with Github, Cart, Search and Pagination(with search too)",
+    link: "https://casado.pythonanywhere.com/store",
+    github: "https://github.com/Casado7/Django-Store",
+    image: "projects/822shots_so.png",
+    tags: [TAGS.DJANGO, TAGS.BOOTSTRAP, TAGS.SQL],
   },
 ]
 ---

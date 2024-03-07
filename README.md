@@ -1,8 +1,8 @@
-# 👨🏻‍💻 Porfolio para programadores y desarrolladores
+# 👨🏻‍💻 Adaptation of the portfolio made by minudev
 
 <div align="center">
 <a href="https://porfolio.dev/">
-<img src="./public/porfolio.webp">
+<img src="./public/23shots_so.png">
 </a>
 <p></p>
 </div>
